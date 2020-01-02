@@ -20,7 +20,6 @@ class Connection
         // The SOCKET_PUB type socket is no longer allowed to have an associated SOCKOPT_IDENTITY (PHP7 php-zmq)
         // https://github.com/zeromq/php-zmq/commit/9f23b02dea8002e20d36d14e4c9882af29ec3296#diff-e8fc933d1022cf57f2ce772e772c8725
         //
-        // Fatal PHP Error: ZMQ::SOCKOPT_IDENTITY is not valid for this socket type
         //$resp->setSockOpt(\ZMQ::SOCKOPT_IDENTITY, $sender_id);
 
         $this->sub_addr = $sub_addr;

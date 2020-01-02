@@ -20,7 +20,7 @@ Just create a composer.json file for your project:
 
     {
         "require": {
-            "nichemarketinginc/m2php": "dev-master"
+            "winks/m2php": "dev-master"
         }
     }
 
